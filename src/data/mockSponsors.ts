@@ -1,0 +1,100 @@
+import { SampleSponsor, SponsorshipTierPackage } from '../types';
+
+export const SAMPLE_SPONSORS: SampleSponsor[] = [
+  {
+    id: 'spon-aura-athletics',
+    name: 'AuraStride India (Sample)',
+    tier: 'Title Sponsor',
+    sector: 'Women’s Sportswear & Footwear',
+    contributionSummary: 'Funds subsidized 3K beginner scholarships and finisher medals across 4 metro runs.',
+    supportedEvents: 'Mumbai HerStride, New Delhi Kartavya Pink Marathon',
+    websiteLabel: 'aurastride-sample.example',
+  },
+  {
+    id: 'spon-kaveri-fin',
+    name: 'Kaveri Meridian Bank (Sample)',
+    tier: 'Title Sponsor',
+    sector: 'Financial Services',
+    contributionSummary: 'Underwrites prize purses for Open & Masters categories and hosts free pre-race clinics.',
+    supportedEvents: 'Kolkata Victoria Dawn, Jaipur Pink Heritage',
+    websiteLabel: 'kaverimeridian-sample.example',
+  },
+  {
+    id: 'spon-jal-electrolytes',
+    name: 'JalPure Hydration Lab (Sample)',
+    tier: 'Hydration Partner',
+    sector: 'Sports Nutrition & Electrolytes',
+    contributionSummary: 'Operates isotonic hydration booths every 2 km and zero-plastic compostable cup stations.',
+    supportedEvents: 'Bengaluru Cubbon Canopy, Pune Sahyadri, Hyderabad Hussain Sagar',
+    websiteLabel: 'jalpure-sample.example',
+  },
+  {
+    id: 'spon-nari-coco',
+    name: 'TropicRoot Tender Coconut (Sample)',
+    tier: 'Hydration Partner',
+    sector: 'Natural Recovery Beverages',
+    contributionSummary: 'Provides chilled post-finish natural electrolyte recovery bars for every runner.',
+    supportedEvents: 'Chennai Marina Breeze, Kochi Harbour 5K & 10K',
+    websiteLabel: 'tropicroot-sample.example',
+  },
+  {
+    id: 'spon-kinetix-weave',
+    name: 'VanaWeave Technical Apparel (Sample)',
+    tier: 'Apparel Partner',
+    sector: 'Breathable Athletic Textiles',
+    contributionSummary: 'Supplies women-tailored anti-chafe race singlets and volunteer pacer jerseys.',
+    supportedEvents: 'Mumbai HerStride, Chandigarh Sukhna Classic, Bengaluru Cubbon Canopy',
+    websiteLabel: 'vanaweave-sample.example',
+  },
+  {
+    id: 'spon-seva-active',
+    name: 'SutraActive Studio (Sample)',
+    tier: 'Apparel Partner',
+    sector: 'Performance Leggings & Sports Bras',
+    contributionSummary: 'Offers expo fitting clinics and custom finisher tees for 5K & 10K milestones.',
+    supportedEvents: 'New Delhi Kartavya Pink, Jaipur Pink Heritage',
+    websiteLabel: 'sutraactive-sample.example',
+  },
+];
+
+export const SPONSORSHIP_PACKAGES: SponsorshipTierPackage[] = [
+  {
+    id: 'pkg-title',
+    tierName: 'Title Partner',
+    targetAudience: 'For national consumer & financial brands',
+    sampleContribution: '₹12L – ₹25L per city series (Sample)',
+    runnerReach: '4,000 – 7,000 runners + 25,000 community impressions',
+    deliverables: [
+      'Co-branded event title, start/finish arch, and finisher medal ribbon',
+      '100 subsidized beginner 3K/5K scholarship bibs in brand name',
+      'Flagship activation pavilion at the 2-day Pre-Race Bib Expo',
+      'Dedicated opt-in digital spotlight in runner preparation mailers',
+    ],
+  },
+  {
+    id: 'pkg-hydration',
+    tierName: 'Hydration & Recovery Partner',
+    targetAudience: 'For nutrition, beverage & wellness brands',
+    sampleContribution: '₹4L – ₹8L per event (Sample)',
+    runnerReach: '2,500 – 5,000 runners on course + finish village',
+    deliverables: [
+      'Exclusive course hydration stations every 2 km along the route',
+      'Post-race recovery nutrition sampling at finish village',
+      'Route map branding and hydration checklist inclusion on HERPLAY',
+      'Custom pacer team hydration sleeves & volunteer kits',
+    ],
+  },
+  {
+    id: 'pkg-apparel',
+    tierName: 'Apparel & Gear Partner',
+    targetAudience: 'For sportswear, footwear & wearable brands',
+    sampleContribution: '₹5L – ₹10L + gear kit (Sample)',
+    runnerReach: '2,000 – 6,000 active runners + run club leads',
+    deliverables: [
+      'Official race singlet / T-shirt co-branding across all categories',
+      'Official pacer squad outfitting and sizing booth at Bib Expo',
+      'Beginner gear checklist feature ("First 5K Shoe & Apparel Guide")',
+      'Discount voucher insertion inside physical race packets',
+    ],
+  },
+];

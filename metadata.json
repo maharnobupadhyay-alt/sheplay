@@ -1,0 +1,8 @@
+{
+  "name": "HERPLAY",
+  "description": "Women's Sports Discovery & Opportunity Platform — Discover women's marathons, beginner running guides, event history, and sponsorships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
